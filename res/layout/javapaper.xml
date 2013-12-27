@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"  
+    android:background="#ededed">
+    
+        <TextView
+            android:id="@+id/heading"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="15dp"
+            android:text="heading"
+            android:textColor="#fea51f"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+        
+ <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/heading">
+
+ </ScrollView>
+
+ <TextView
+     android:id="@+id/maintext"
+     android:layout_width="fill_parent"
+     android:layout_height="192dp"
+     android:layout_alignParentLeft="true"
+     android:layout_below="@+id/heading"
+     android:layout_marginTop="91dp"
+     android:fontFamily="sans-serif-light"
+     android:paddingLeft="15dp"
+     android:paddingRight="15dp"
+     android:paddingTop="25dp"
+     android:text="this is my first page"
+     android:textColor="#000000"
+     android:textSize="15sp" />
+ 
+     <Button
+            android:id="@+id/prev"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/next"
+            android:layout_alignBottom="@+id/next"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/left" />
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/right" />
+
+ </RelativeLayout>

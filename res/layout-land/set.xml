@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ededed"
+    android:gravity="center_horizontal" >
+
+
+    <TextView
+        android:id="@+id/action1"
+        android:layout_width="wrap_content"
+        android:layout_height="50sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:background="#13475b"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:paddingTop="10sp"
+        android:text="        Set"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:textStyle="normal" />
+
+       <Button
+           android:id="@+id/icony"
+           android:layout_width="60sp"
+           android:layout_height="wrap_content"
+           android:layout_alignParentLeft="true"
+           android:layout_alignTop="@+id/action1"
+           android:background="@drawable/whiteleft"
+           android:fontFamily="sans-serif"
+           android:textStyle="normal" />
+
+       <Button
+           android:id="@+id/pset2"
+           android:layout_width="130dp"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/action1"
+           android:layout_centerHorizontal="true"
+           android:layout_marginTop="54dp"
+           android:background="@drawable/normalbuttons"
+           android:fontFamily="sans-serif"
+           android:text="SET II"
+           android:textColor="#ffffff"
+           android:textStyle="bold" />
+
+       <Button
+           android:id="@+id/pset1"
+           android:layout_width="130dp"
+           android:layout_height="wrap_content"
+           android:layout_alignParentLeft="true"
+           android:layout_alignTop="@+id/pset2"
+           android:layout_marginLeft="22dp"
+           android:background="@drawable/normalbuttons"
+           android:fontFamily="sans-serif"
+           android:text="SET I"
+           android:textColor="#ffffff"
+           android:textStyle="bold" />
+
+       <Button
+           android:id="@+id/pset3"
+           android:layout_width="130dp"
+           android:layout_height="wrap_content"
+           android:layout_alignBaseline="@+id/pset2"
+           android:layout_alignBottom="@+id/pset2"
+           android:layout_alignParentRight="true"
+           android:layout_marginRight="22dp"
+           android:background="@drawable/normalbuttons"
+           android:fontFamily="sans-serif"
+           android:text="SET III"
+           android:textColor="#ffffff"
+           android:textStyle="bold" />
+
+</RelativeLayout>

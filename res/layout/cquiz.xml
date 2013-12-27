@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/quiz" >
+
+    <TextView
+        android:id="@+id/maintext"
+        android:layout_width="324dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="18dp"
+        android:layout_x="-1dp"
+        android:layout_y="128dp"
+        android:fontFamily="sans-serif-light"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="25dp"
+        android:text="first"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/maintext"
+        android:layout_width="326dp"
+        android:layout_height="wrap_content"
+        android:layout_x="-2dp"
+        android:layout_y="164dp"
+        android:fontFamily="sans-serif-light"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="25dp"
+        android:text="second"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/maintext"
+        android:layout_width="322dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:layout_x="0dp"
+        android:layout_y="201dp"
+        android:fontFamily="sans-serif-light"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="25dp"
+        android:text="third"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/maintext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="-2dp"
+        android:layout_y="239dp"
+        android:fontFamily="sans-serif-light"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="25dp"
+        android:text="fourth"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:layout_x="0dp"
+        android:layout_y="396dp"
+        android:background="#ededed"
+        android:text="Next" />
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="-5dp"
+        android:layout_y="57dp"
+        android:fontFamily="sans-serif-light"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="15dp"
+        android:text="1. What will happen if in a C program you assign a value to an array element whose subscript exceeds the size of array?"
+        android:textColor="#77a31d"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="190dp"
+        android:layout_y="152dp" >
+    </RadioGroup>
+
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="237dp"
+            android:layout_y="255dp" />
+
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="237dp"
+            android:layout_y="218dp" />
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="237dp"
+            android:layout_y="183dp" />
+
+        <RadioButton
+            android:id="@+id/radio0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="237dp"
+            android:layout_y="148dp"
+            android:checked="true"
+            android:textColor="#0099cc" />
+        
+        <ProgressBar
+            android:id="@+id/progressBar2"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="194dp"
+            android:layout_height="wrap_content"
+            android:layout_x="65dp"
+            android:layout_y="23dp"
+            android:startColor="#77a31d" 
+            android:endColor="#77a31d" />
+
+</AbsoluteLayout>

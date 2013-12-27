@@ -1,0 +1,90 @@
+ 
+ <resources>
+ <string-array name="mlist">
+  <item>Clip 1</item> 
+  <item>Clip 2</item> 
+  <item>Clip 3</item> 
+  <item>Clip 4</item> 
+  <item>Clip 5</item> 
+  </string-array>
+ <string-array name="mlistvalues">
+  <item>c1</item> 
+  <item>c2</item> 
+  <item>c3</item> 
+  <item>c4</item> 
+  <item>c5</item> 
+  </string-array>
+ <string-array name="fsizelist">
+  <item>10</item> 
+  <item>12</item> 
+  <item>14</item> 
+  <item>16</item> 
+  <item>18</item> 
+  <item>20</item> 
+  </string-array>
+ <string-array name="fsizelistvalues">
+  <item>s1</item> 
+  <item>s2</item> 
+  <item>s3</item> 
+  <item>s4</item> 
+  <item>s5</item> 
+  <item>s6</item> 
+  </string-array>
+ <string-array name="fcolorlist">
+  <item>Red</item> 
+  <item>Cyan</item> 
+  <item>Blue</item> 
+  <item>Black</item> 
+  <item>Gray</item> 
+  <item>Green</item> 
+  </string-array>
+ <string-array name="fcolorlistvalues">
+  <item>Red</item> 
+  <item>Cyan</item> 
+  <item>Blue</item> 
+  <item>Black</item> 
+  <item>Gray</item> 
+  <item>Green</item> 
+  </string-array>
+ <string-array name="tlist">
+  <item>Transition 1</item> 
+  <item>Transition 2</item> 
+  <item>Transition 3</item> 
+  <item>Transition 4</item> 
+  </string-array>
+ <string-array name="tlistvalues">
+  <item>t1</item> 
+  <item>t2</item> 
+  <item>t3</item> 
+  <item>t4</item> 
+  </string-array>
+  
+ 
+
+  
+  <string-array name="coptionsvalues">
+  <item>Save the code in the file hello\.c\, then compile it by typing\:
+	gcc hello\.c
+This creates an executable file a\.out\, which is then executed simply by typing its name\.
+The result is that the characters \`\` Hello World\'\' are printed out\, preceded by an empty line\.
+
+A C program contains functions and variables\. The functions specify the tasks to be performed by the program\.
+The \"main\'\' function establishes the overall logic of the code\.
+It is normally kept short and calls different functions to perform the necessary sub\-tasks\. 
+ll C codes must have a \"main\'\' function\.
+
+Our hello\.c code calls printf\, an output function from the I\/O \(input\/output\) library \(defined in the file stdio\.h\)",
+
+
+void main\(\)
+\{
+    printf\(\"\\n\"\)\;
+    printf\(\"Hello World\"\)\;
+    printf\(\"\\n\"\)\;
+\}\" </item> 
+  <item>t2</item> 
+  <item>t3</item> 
+  <item>t4</item> 
+  </string-array>
+  
+  </resources>

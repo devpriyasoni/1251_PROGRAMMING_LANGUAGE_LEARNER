@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ProgressBar
+        android:id="@+id/pB1"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="190sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="26dp" />
+
+    <TextView
+        android:id="@+id/twatch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pB1"
+        android:layout_marginLeft="22dp"
+        android:layout_toRightOf="@+id/pB1"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/headingquiz"
+        android:layout_width="wrap_content"
+        android:layout_height="60sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/twatch"
+        android:layout_marginTop="15dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/option4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/rG1"
+        android:layout_alignParentLeft="true"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/option3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/option4"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="32dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/option2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/option3"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="32dp"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/quizend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/next"
+        android:text="End"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/quiznext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/next"
+        android:text="Next"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/rG1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/twatch"
+        android:layout_alignTop="@+id/headingquiz" >
+
+        <RadioButton
+            android:id="@+id/select1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/twatch"
+            android:layout_alignTop="@+id/headingquiz"
+            android:layout_marginTop="62dp" />
+
+        <RadioButton
+            android:id="@+id/select2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp" />
+
+        <RadioButton
+            android:id="@+id/select3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/radioButton1"
+            android:layout_below="@+id/radioButton1"
+            android:layout_marginTop="18dp" />
+
+        <RadioButton
+            android:id="@+id/select4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/radioButton3"
+            android:layout_below="@+id/radioButton3"
+            android:layout_marginTop="18dp" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/option1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/headingquiz"
+        android:layout_marginTop="16dp"
+        android:text="TextView" />
+
+    <ProgressBar
+        android:id="@+id/pB2"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/quizend"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="23dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/pB2"
+        android:layout_centerHorizontal="true"
+        android:text="Success Bar" />
+
+</RelativeLayout>

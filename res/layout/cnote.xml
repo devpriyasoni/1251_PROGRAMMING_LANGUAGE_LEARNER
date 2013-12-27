@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="#ededed">
+    
+        <TextView
+        android:id="@+id/heading"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="heading"
+        android:fontFamily="sans-serif-light"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:paddingTop="15dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textColor="#0099cc" />
+    
+        
+ <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/heading">
+			            
+        <TextView
+        android:id="@+id/maintext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="this is my first page"
+        android:paddingTop="25dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:layout_below="@+id/heading"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+ </ScrollView>
+
+        <Button
+            android:id="@+id/prev"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/next"
+            android:layout_alignBottom="@+id/next"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/left" />
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/right" />
+
+        <SlidingDrawer
+            android:id="@+id/sld1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:content="@+id/content"
+            android:handle="@+id/handle" >
+
+            <Button
+                android:id="@+id/handle"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="@drawable/up" />
+
+            <LinearLayout
+                android:id="@+id/content"
+                android:layout_width="match_parent"
+                android:layout_height="135dp"
+                android:background="@drawable/grey"
+                android:orientation="vertical" >
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:height="300dp"
+                    android:hint="write your notes"
+                    android:paddingTop="55dp" >
+
+                    <requestFocus />
+                </EditText>
+
+                <Button
+                    android:id="@+id/booksave"
+                    android:layout_width="98dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.20"
+                    android:text="Save" />
+
+                <Button
+                    android:id="@+id/bookdisplay"
+                    android:layout_width="98dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.04"
+                    android:text="Display" />
+
+            </LinearLayout>
+
+        </SlidingDrawer>
+
+</RelativeLayout>

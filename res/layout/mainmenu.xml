@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ededed"
+    android:gravity="center_horizontal" >
+
+
+    <TextView
+        android:id="@+id/action1"
+        android:layout_width="wrap_content"
+        android:layout_height="50sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:background="#13475b"
+        android:ems="10"
+        android:paddingTop="11sp"
+        android:fontFamily="sans-serif"
+        android:text="        Menu"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:textStyle="normal" />
+
+      <Button
+          android:id="@+id/paper"
+          android:layout_marginTop="10dp"
+          android:layout_width="130dp"
+          android:layout_height="wrap_content"
+          android:layout_alignLeft="@+id/quiz"
+          android:layout_alignRight="@+id/quiz"
+          android:layout_below="@+id/quiz"
+          android:fontFamily="sans-serif"
+          android:text="Papers"
+          android:background="@drawable/normalbuttons"
+          android:textStyle="bold"
+          android:textColor="#ffffff"
+           />
+
+      <Button
+          android:id="@+id/notes"
+          android:layout_width="130dp"
+          android:layout_height="wrap_content"
+          android:layout_above="@+id/quiz"
+          android:layout_centerHorizontal="true"
+          android:fontFamily="sans-serif"
+          android:text="Language"
+          android:background="@drawable/normalbuttons"
+          android:textStyle="bold"
+          android:textColor="#ffffff"
+           />
+      
+       <Button
+        android:id="@+id/icony"
+        android:layout_width="60sp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/action1"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/whiteleft"
+        android:fontFamily="sans-serif"
+         />
+
+       <Button
+           android:id="@+id/quiz"
+           android:layout_width="130dp"
+           android:layout_height="wrap_content"
+           android:layout_alignLeft="@+id/notes"
+           android:layout_centerVertical="true"
+           android:fontFamily="sans-serif"
+           android:text="Quiz"
+           android:layout_marginTop="10dp"
+           android:background="@drawable/normalbuttons"
+           android:textStyle="bold"
+           android:textColor="#ffffff"
+            />
+
+</RelativeLayout>

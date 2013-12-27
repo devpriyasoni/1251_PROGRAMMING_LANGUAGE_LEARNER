@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ededed" >
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="fill_parent"
+        android:layout_height="70sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="76dp"
+        android:text="1. What will happen if in a C program you assign a value to an array element whose subscript exceeds the size of array?"
+        android:textColor="#0099cc" />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="fill_parent"
+        android:layout_height="70sp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/t1"
+        android:layout_marginTop="20dp"
+        android:text="1. What will happen if in a C program you assign a value to an array element whose subscript exceeds the size of array?"
+        android:textColor="#fea51f" />
+
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="fill_parent"
+        android:layout_height="70sp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/t2"
+        android:layout_marginTop="20dp"
+        android:text="1. What will happen if in a C program you assign a value to an array element whose subscript exceeds the size of array?"
+        android:textColor="#fea99f" />
+
+    <TextView
+        android:id="@+id/t4"
+        android:layout_width="fill_parent"
+        android:layout_height="70sp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/t3"
+        android:layout_marginTop="20dp"
+        android:text="1. What will happen if in a C program you assign a value to an array element whose subscript exceeds the size of array?" />
+
+    <TextView
+        android:id="@+id/t5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="17dp"
+        android:text="Questions"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/pagenext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/right" />
+
+    <Button
+        android:id="@+id/pageprev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/left" />
+
+</RelativeLayout>

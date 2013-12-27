@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ededed"
+    android:gravity="center_horizontal" >
+
+
+    <TextView
+        android:id="@+id/action1"
+        android:layout_width="wrap_content"
+        android:layout_height="50sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:background="#13475b"
+        android:ems="10"
+        android:paddingTop="10dp"
+        android:fontFamily="sans-serif"
+        android:text="        Quiz"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:textStyle="normal" />
+
+       <TextView
+           android:id="@+id/icony"
+           android:layout_width="60sp"
+           android:layout_height="wrap_content"
+           android:layout_alignBottom="@+id/action1"
+           android:layout_alignParentLeft="true"
+           android:layout_alignTop="@+id/action1"
+           android:background="@drawable/whiteleft"
+           android:ems="10"
+           android:fontFamily="sans-serif"
+           android:textColor="#ffffff"
+           android:textStyle="normal" />"
+
+        "
+
+       <Button
+           android:id="@+id/qbtncplus"
+           android:layout_width="130dp"
+           android:layout_height="wrap_content"
+           android:layout_alignParentLeft="true"
+           android:layout_below="@+id/action1"
+           android:layout_marginLeft="19dp"
+           android:layout_marginTop="59dp"
+           android:background="@drawable/normalbuttons"
+           android:fontFamily="sans-serif"
+           android:text="C++"
+           android:textColor="#ffffff"
+           android:textStyle="bold" />
+
+       <Button
+           android:id="@+id/qbtnc"
+           android:layout_width="130dp"
+           android:layout_height="wrap_content"
+           android:layout_alignBaseline="@+id/qbtncplus"
+           android:layout_alignBottom="@+id/qbtncplus"
+           android:layout_centerHorizontal="true"
+           android:background="@drawable/normalbuttons"
+           android:fontFamily="sans-serif"
+           android:text="C"
+           android:textColor="#ffffff"
+           android:textStyle="bold" />
+
+       <Button
+           android:id="@+id/qbtnjava"
+           android:layout_width="130dp"
+           android:layout_height="wrap_content"
+           android:layout_alignBaseline="@+id/qbtnc"
+           android:layout_alignBottom="@+id/qbtnc"
+           android:layout_alignParentRight="true"
+           android:layout_marginRight="21dp"
+           android:background="@drawable/normalbuttons"
+           android:fontFamily="sans-serif"
+           android:text="Java"
+           android:textColor="#ffffff"
+           android:textStyle="bold" />
+
+</RelativeLayout>

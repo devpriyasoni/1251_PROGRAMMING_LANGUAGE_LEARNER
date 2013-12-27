@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aboutmain"  >
+        
+        <TextView
+        android:id="@+id/action1"
+        android:layout_width="fill_parent"
+        android:layout_height="50sp"
+        android:background="#13475b"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:text="About Us"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:textStyle="normal" />
+
+                      <TextView
+                          android:id="@+id/heading5"
+                          android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_above="@+id/heading8"
+                          android:layout_alignParentLeft="true"
+                          android:layout_marginBottom="16dp"
+                          android:fontFamily="sans-serif-light"
+                          android:gravity="center"
+                          android:text="Danesh Khandelwal"
+                          android:textColor="#000000"
+                          android:textSize="15sp"
+                          android:textStyle="bold" />
+
+                      <TextView
+                          android:id="@+id/heading7"
+                          android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_above="@+id/heading5"
+                          android:layout_alignParentLeft="true"
+                          android:layout_marginBottom="16dp"
+                          android:fontFamily="sans-serif-light"
+                          android:gravity="center"
+                          android:text="Developers"
+                          android:textColor="#0099cc"
+                          android:textSize="15sp"
+                          android:textStyle="bold" />
+
+                      <TextView
+                          android:id="@+id/heading8"
+                          android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_above="@+id/heading9"
+                          android:layout_alignParentLeft="true"
+                          android:layout_marginBottom="14dp"
+                          android:fontFamily="sans-serif-light"
+                          android:gravity="center"
+                          android:text="Gaurav Kansal"
+                          android:textColor="#000000"
+                          android:textSize="15sp"
+                          android:textStyle="bold" />
+                      
+                       <TextView
+                          android:id="@+id/heading8"
+                          android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_above="@+id/heading9"
+                          android:layout_alignParentLeft="true"
+                          android:layout_marginBottom="14dp"
+                          android:fontFamily="sans-serif-light"
+                          android:gravity="center"
+                          android:text=""
+                          android:textColor="#000000"
+                          android:textSize="15sp"
+                          android:textStyle="bold" />
+
+                       <TextView
+                           android:id="@+id/heading9"
+                           android:layout_width="fill_parent"
+                           android:layout_height="wrap_content"
+                           android:layout_alignParentBottom="true"
+                           android:layout_alignParentLeft="true"
+                           android:layout_marginBottom="14dp"
+                           android:fontFamily="sans-serif-light"
+                           android:gravity="center"
+                           android:text="Ajay Garg"
+                           android:textColor="#000000"
+                           android:textSize="15sp"
+                           android:textStyle="bold" />
+
+                       <TextView
+                           android:id="@+id/heading6"
+                           android:layout_width="fill_parent"
+                           android:layout_height="wrap_content"
+                           android:layout_alignParentLeft="true"
+                           android:layout_below="@+id/action1"
+                           android:layout_marginTop="134dp"
+                           android:fontFamily="sans-serif-light"
+                           android:gravity="center"
+                           android:paddingLeft="15dp"
+                           android:paddingRight="15dp"
+                           android:paddingTop="15dp"
+                           android:text="© Jaypee Softwares Ltd."
+                           android:textColor="#0099cc"
+                           android:textSize="15sp"
+                           android:textStyle="bold" />
+
+                       <TextView
+                           android:id="@+id/heading3"
+                           android:layout_width="fill_parent"
+                           android:layout_height="wrap_content"
+                           android:layout_alignParentLeft="true"
+                           android:layout_alignTop="@+id/heading6"
+                           android:layout_marginTop="17dp"
+                           android:fontFamily="sans-serif-light"
+                           android:gravity="center"
+                           android:paddingLeft="15dp"
+                           android:paddingRight="15dp"
+                           android:paddingTop="15dp"
+                           android:text="Version 2.0.1"
+                           android:textColor="#000000"
+                           android:textSize="15sp"
+                           android:textStyle="bold" />
+
+                       <TextView
+                           android:id="@+id/heading4"
+                           android:layout_width="fill_parent"
+                           android:layout_height="wrap_content"
+                           android:layout_alignParentLeft="true"
+                           android:layout_centerVertical="true"
+                           android:fontFamily="sans-serif-light"
+                           android:gravity="center"
+                           android:paddingLeft="15dp"
+                           android:paddingRight="15dp"
+                           android:paddingTop="15dp"
+                           android:text="Programming Language Learner allows you to learn  a programming languages in an interactive way."
+                           android:textColor="#000000"
+                           android:textSize="15sp"
+                           android:textStyle="bold" />
+                       
+                       <TextView
+                           android:id="@+id/heading4"
+                           android:layout_width="fill_parent"
+                           android:layout_height="wrap_content"
+                           android:layout_centerVertical="true"
+                           android:fontFamily="sans-serif-light"
+                           android:gravity="center"
+                           android:paddingLeft="15dp"
+                           android:paddingRight="15dp"
+                           android:paddingTop="45dp"
+                           android:text="\n\n\n\n\n\nfeedback"
+                           android:textColor="#0099cc"
+                           android:textSize="15sp"
+                           android:textStyle="bold" />
+
+                       <TextView
+                           android:id="@+id/heading7"
+                           android:layout_width="fill_parent"
+                           android:layout_height="wrap_content"
+                           android:layout_alignParentLeft="true"
+                           android:layout_below="@+id/heading4"
+                           android:fontFamily="sans-serif-light"
+                           android:gravity="center"
+                           android:text="\ndaneshkhandelwal@live.com"
+                           android:textColor="#000000"
+                           android:textSize="15sp"
+                           android:textStyle="bold" />
+
+</RelativeLayout>

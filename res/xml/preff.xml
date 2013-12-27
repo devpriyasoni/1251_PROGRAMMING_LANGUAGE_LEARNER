@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:key="pref_key_storage_settings"
+        android:title="Music" >
+
+        <!--
+<EditTextPreference
+    android:title="edit text"
+    android:key="name"
+    android:summary="enter your name">   
+    
+</EditTextPreference>
+        -->
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="music"
+            android:summary="Check To Enable Music "
+            android:title="Music Access" >
+        </CheckBoxPreference>
+
+        <ListPreference
+            android:entries="@array/mlist"
+            android:entryValues="@array/mlistvalues"
+            android:key="mselect"
+            android:summary="Select Clip To Play "
+            android:title="Choose Music To Play" >
+        </ListPreference>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="pref_settings"
+        android:title="Font" >
+        <ListPreference
+            android:enabled="true"
+            android:entries="@array/fcolorlist"
+            android:entryValues="@array/fcolorlistvalues"
+            android:key="fcolor"
+            android:summary="Choose Font Color"
+            android:title="Font Color" >
+        </ListPreference>
+        <ListPreference
+            android:entries="@array/fsizelist"
+            android:entryValues="@array/fsizelistvalues"
+            android:key="fsize"
+            android:summary="Choose Text Size"
+            android:title="Font Size" >
+        </ListPreference>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="pref_page"
+        android:title="Page Transitions" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="at"
+            android:summary="Check to enable transitions"
+            android:title="Allow Transitions" />
+
+        <ListPreference
+            android:entries="@array/tlist"
+            android:entryValues="@array/tlistvalues"
+            android:key="aselect"
+            android:summary="Choose Transitions To Play"
+            android:title="Choose Transitions To Play" />
+    </PreferenceCategory>
+    
+   <PreferenceCategory
+        android:key="pref_page"
+        android:title="full screen" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="fscreen"
+            android:summary="Check to enable fullscreen"
+            android:title="Allow Fullscreen" />
+
+    </PreferenceCategory>
+    
+   <PreferenceCategory
+        android:key="wl"
+        android:title="Wake Lock" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="wlock"
+            android:summary="Make your screen wake while reading"
+            android:title="Click to enable Wake lock" />
+
+    </PreferenceCategory>
+   
+</PreferenceScreen>

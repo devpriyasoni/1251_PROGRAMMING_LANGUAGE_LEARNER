@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.com.example.pllv1"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="net.com.example.pllv1.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        - 
+        <!--
+<activity
+            android:name="net.com.example.pllv1.MainActivity"
+            android:label="@string/app_name" >
+- 
+            <intent-filter>
+                <action android:name="net.com.example.pllv1.MAINACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        -->
+- 
+        <activity
+            android:name="net.com.example.pllv1.startmenu"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+- 
+            <intent-filter>
+                <action android:name="net.com.example.pllv1.STARTMENU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="net.com.example.pllv1.quizcpp"
+            android:label="CPP Quiz"
+            android:screenOrientation="portrait" >
+- 
+            <intent-filter>
+                <action android:name="net.com.example.pllv1.QUIZCPP" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="net.com.example.pllv1.quizjava"
+            android:label="JAVA Quiz"
+            android:screenOrientation="portrait" >
+- 
+            <intent-filter>
+                <action android:name="net.com.example.pllv1.QUIZJAVA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="net.com.example.pllv1.language"
+            android:label="PLL Languages"
+            android:screenOrientation="portrait" >
+- 
+            <intent-filter>
+                <action android:name="net.com.example.pllv1.LANGUAGE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+- 
+        <activity
+            android:name="net.com.example.pllv1.sets"
+            android:label="Paper Sets"
+            android:screenOrientation="portrait" >
+- 
+            <intent-filter>
+                <action android:name="net.com.example.pllv1.SETS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+- 
+        <activity
+            android:name="net.com.example.pllv1.aboutus"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" >
+- 
+            <intent-filter>
+                <action android:name="net.com.example.pllv1.ABOUTUS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="net.com.example.pllv1.papers"
+            android:label="Interview papers"
+            android:screenOrientation="portrait" >
+- 
+            <intent-filter>
+                <action android:name="net.com.example.pllv1.PAPERS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="net.com.example.pllv1.paperset"
+            android:label="Paper Set"
+            android:screenOrientation="portrait" >
+- 
+            <intent-filter>
+                <action android:name="net.com.example.pllv1.PAPERSET" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="net.com.example.pllv1.preffs"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+- 
+            <intent-filter>
+                <action android:name="net.com.example.pllv1.PREFFS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="net.com.example.pllv1.quizselect"
+            android:label="Quiz Language Select"
+            android:screenOrientation="portrait" >
+- 
+            <intent-filter>
+                <action android:name="net.com.example.pllv1.QUIZSELECT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+- 
+        <activity
+            android:name="net.com.example.pllv1.langreader"
+            android:label="C "
+            android:screenOrientation="portrait" >
+- 
+            <intent-filter>
+                <action android:name="net.com.example.pllv1.LANGREADER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="net.com.example.pllv1.result"
+            android:label="Final Result"
+            android:screenOrientation="portrait" >
+- 
+            <intent-filter>
+                <action android:name="net.com.example.pllv1.RESULT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="net.com.example.pllv1.quiz"
+            android:label="C Quiz"
+            android:screenOrientation="portrait" >
+- 
+            <intent-filter>
+                <action android:name="net.com.example.pllv1.QUIZ" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="net.com.example.pllv1.langreader1"
+            android:label="CPP"
+            android:screenOrientation="portrait" >
+- 
+            <intent-filter>
+                <action android:name="net.com.example.pllv1.LANGREADER1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="net.com.example.pllv1.cpp"
+            android:label="CPP Language"
+            android:screenOrientation="portrait" >
+- 
+            <intent-filter>
+                <action android:name="net.com.example.pllv1.CPP" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="net.com.example.pllv1.langreader2"
+            android:label="JAVA "
+            android:screenOrientation="portrait" >
+- 
+            <intent-filter>
+                <action android:name="net.com.example.pllv1.LANGREADER2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="net.com.example.pllv1.java"
+            android:label="JAVA Language"
+            android:screenOrientation="portrait" >
+- 
+            <intent-filter>
+                <action android:name="net.com.example.pllv1.JAVA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="net.com.example.pllv1.displaynotes"
+            android:label="Your Notes"
+            android:screenOrientation="portrait" >
+- 
+            <intent-filter>
+                <action android:name="net.com.example.pllv1.DISPLAYNOTES" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="net.com.example.pllv1.google"
+            android:label="GOOGLE"
+            android:screenOrientation="portrait" >
+- 
+            <intent-filter>
+                <action android:name="net.com.example.pllv1.GOOGLE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="net.com.example.pllv1.amazon"
+            android:label="AMAZON"
+            android:screenOrientation="portrait" >
+- 
+            <intent-filter>
+                <action android:name="net.com.example.pllv1.AMAZON" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="net.com.example.pllv1.microsoft"
+            android:label="MICROSOFT"
+            android:screenOrientation="portrait" >
+- 
+            <intent-filter>
+                <action android:name="net.com.example.pllv1.MICROSOFT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="net.com.example.pllv1.c"
+            android:label="C Language"
+            android:screenOrientation="portrait" >
+- 
+            <intent-filter>
+                <action android:name="net.com.example.pllv1.C" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="net.com.example.pllv1.firstlogin"
+            android:label=" PLL Login"
+            android:screenOrientation="portrait" >
+- 
+            <intent-filter>
+                <action android:name="net.com.example.pllv1.FIRSTLOGIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        - 
+        <activity
+            android:name="net.com.example.pllv1.signup"
+            android:label="PLL SignUp"
+            android:screenOrientation="portrait" >
+- 
+            <intent-filter>
+                <action android:name="net.com.example.pllv1.SIGNUP" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+- 
+        <activity
+            android:name="net.com.example.pllv1.displaytable"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+- 
+            <intent-filter>
+                <action android:name="net.com.example.pllv1.DISPLAYTABLE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+- 
+        <activity
+            android:name="net.com.example.pllv1.mainmenu"
+            android:label="Main Menu"
+            android:screenOrientation="portrait" >
+- 
+            <intent-filter>
+                <action android:name="net.com.example.pllv1.MAINMENU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

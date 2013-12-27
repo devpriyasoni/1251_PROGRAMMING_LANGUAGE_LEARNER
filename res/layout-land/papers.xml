@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="#ededed"
+    android:gravity="center_horizontal" >
+
+
+    <TextView
+        android:id="@+id/action1"
+        android:layout_width="wrap_content"
+        android:layout_height="50sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:background="#13475b"
+        android:ems="10"
+        android:paddingTop="6sp"
+        android:fontFamily="sans-serif"
+        android:text="       Paper"
+        android:textColor="#ffffff"
+        android:textSize="29sp"
+        android:textStyle="normal" />
+
+       <Button
+           android:id="@+id/icony"
+           android:layout_width="60sp"
+           android:layout_height="wrap_content"
+           android:layout_alignParentLeft="true"
+           android:layout_alignTop="@+id/action1"
+           android:background="@drawable/whiteleft"
+           android:fontFamily="sans-serif"
+           android:textStyle="normal" />
+
+       <Button
+           android:id="@+id/google"
+           android:layout_width="130dp"
+           android:layout_height="wrap_content"
+           android:layout_alignParentLeft="true"
+           android:layout_below="@+id/action1"
+           android:layout_marginLeft="27dp"
+           android:layout_marginTop="63dp"
+           android:background="@drawable/normalbuttons"
+           android:fontFamily="sans-serif"
+           android:text="Google"
+           android:textColor="#ffffff"
+           android:textStyle="bold" />
+
+       <Button
+           android:id="@+id/microsoft"
+           android:layout_width="130dp"
+           android:layout_height="wrap_content"
+           android:layout_alignBaseline="@+id/google"
+           android:layout_alignBottom="@+id/google"
+           android:layout_centerHorizontal="true"
+           android:background="@drawable/normalbuttons"
+           android:fontFamily="sans-serif"
+           android:text="Microsoft"
+           android:textColor="#ffffff"
+           android:textStyle="bold" />
+
+       <Button
+           android:id="@+id/amazon"
+           android:layout_width="130dp"
+           android:layout_height="wrap_content"
+           android:layout_alignBaseline="@+id/microsoft"
+           android:layout_alignBottom="@+id/microsoft"
+           android:layout_alignParentRight="true"
+           android:layout_marginRight="20dp"
+           android:background="@drawable/normalbuttons"
+           android:fontFamily="sans-serif"
+           android:text="Amazon"
+           android:textColor="#ffffff"
+           android:textStyle="bold" />
+
+</RelativeLayout>

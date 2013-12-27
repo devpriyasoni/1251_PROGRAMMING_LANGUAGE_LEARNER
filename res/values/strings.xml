@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PLL</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="welcome">WELCOME   TO    PLL :-)</string>
+    <string-array name="la">""</string-array>
+      <string-array name="coptions">
+  <item>INTRO</item> 
+  <item>t2</item> 
+  <item>t3</item> 
+  <item>t4</item> 
+  </string-array>
+    
+
+</resources>

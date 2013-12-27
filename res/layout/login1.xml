@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg" >
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_above="@+id/pvisible"
+        android:layout_alignLeft="@+id/username"
+        android:background="@drawable/back"
+        android:ems="10"
+        android:hint=" *************"
+        android:inputType="textPassword"
+        android:fontFamily="sans-serif"
+        android:textStyle="normal" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_above="@+id/password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="17dp"
+        android:background="@drawable/back"
+        android:ems="10"
+        android:hint=" Username"
+        android:fontFamily="sans-serif"
+        android:textStyle="normal" >
+
+        <requestFocus />
+    </EditText>
+
+    <CheckBox
+        android:id="@+id/pvisible"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_above="@+id/signin"
+        android:layout_alignLeft="@+id/password"
+        android:layout_alignRight="@+id/password"
+        android:checked="true"
+        android:background="@drawable/button"
+        android:fontFamily="sans-serif"
+        android:text="        Show Password"
+        android:textStyle="normal" />
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/signin"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/signin"
+        android:layout_marginBottom="39dp"
+        android:background="@drawable/button"
+        android:fontFamily="sans-serif"
+        android:text="New User"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/signin"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_above="@+id/signup"
+        android:layout_alignLeft="@+id/pvisible"
+        android:layout_alignRight="@+id/pvisible"
+        android:layout_marginBottom="14dp"
+        android:background="@drawable/button"
+        android:fontFamily="sans-serif"
+        android:text="Sign In"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+</RelativeLayout>
